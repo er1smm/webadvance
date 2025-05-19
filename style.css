@@ -1,0 +1,28 @@
+/* dash-separeted */
+/* p[class|="ds"]{
+  background-color: blue;
+  color:white;
+  padding:20;
+}  */
+
+
+/* p[class$="ds"]{
+  background-color: blue;
+  color:white;
+  padding:20;
+} */
+
+
+div[id^="ds"]{
+  background: green;
+  color:white;
+  padding:20px;
+}
+
+img[title="canyons"]{
+    border:2px solid blue
+}
+
+h1[class|="heading"]{
+    background-color: blue;
+}
